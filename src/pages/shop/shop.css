@@ -1,37 +1,77 @@
 .shopTitle {
-  margin-top: 100px;
+  display: flex;
+  /* margin-top: 0; */
+  justify-content: center;
   text-align: center;
-  font-size: 40px;
+  align-items: center;
+  font-size: 30px;
+  background-color: rgb(237, 237, 237);
+  /* background-color: green; */
+  height: 150px;
+  color: rgb(38, 14, 60);
+  color: rgb(1, 0, 2);
+  /* background-color: green; */
+  font-family: 'Acme', sans-serif;
+font-family: 'Alice', serif;
+/* font-family: 'Marcellus', serif; */
+/* font-family: 'Philosopher', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+color: darkcyan;
+
 }
 .products {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 25vw 25vw 25vw 25vw; */
+  grid-template-columns: repeat(4, 24vw);
+  /* grid-gap: -3px 0px; */
+  /* grid-column-end: 4; */
   place-items: center;
+  background-color: rgb(229, 230, 232);
+  justify-content: center;
+  /* background-color: rgb(213, 201, 224); */
+  
 }
 
 .product {
-  border-radius: 15px;
-  width: 300px;
-  height: 350px;
+  /* width: 300px; */
+  /* height: 35px; */
+  /* background-color: green; */
   margin: 100px;
+  margin-bottom: 25px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(208, 219, 223);
+  /* background-color: black; */
+  /* padding: 12px; */
+  border-radius: 5px;
+}
+
+.product:hover {
+  background: rgb(0, 0, 0, 0.225);
 }
 
 .product img {
-  width: 400px;
+  /* width: 400px; */
+  width: 260px;
+  height: 300px;
+  /* border: 1px solid black; */
+  border-radius: 0.5rem;
+  padding: 20px 25px;
+  padding-bottom: 5px;
 }
 
 .product .description {
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .product:hover {
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
   cursor: pointer;
 }
 
@@ -43,11 +83,37 @@
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 15px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .addToCartBttn:hover {
   background-color: rgb(19, 19, 19);
   color: white;
+  background-color: rgb(33, 16, 86);
   cursor: pointer;
+  border-radius: 2px solid rgb(33, 16, 86);
+}
+
+.book-title {
+  margin: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-price {
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
 }
