@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/BookStore-React/static/css/main.974da663.css",
-    "main.js": "/BookStore-React/static/js/main.b4ad50b7.js",
-    "static/media/2.png": "/BookStore-React/static/media/2.5f080d9e47bf46ca3fce.png",
-    "static/media/3.png": "/BookStore-React/static/media/3.c7785c796d0b2bf5aa2b.png",
-    "static/media/4.png": "/BookStore-React/static/media/4.dce93278370eb9a94e56.png",
-    "static/media/1.png": "/BookStore-React/static/media/1.87f6c2f48f7e15ed845b.png",
-    "static/media/8.webp": "/BookStore-React/static/media/8.8bd0ab9ccc0cf9fb335d.webp",
-    "static/media/5.png": "/BookStore-React/static/media/5.a13c8fc38072a14d6633.png",
-    "static/media/6.webp": "/BookStore-React/static/media/6.5828a0fe3c77468b8726.webp",
-    "static/media/7.webp": "/BookStore-React/static/media/7.59c9a0eba54726d9fc95.webp",
+    "main.css": "/BookStore-React/static/css/main.c1e29cb3.css",
+    "main.js": "/BookStore-React/static/js/main.c3bde7a2.js",
+    "static/media/new-g.webp": "/BookStore-React/static/media/new-g.3bd92cab15a76bd0a28e.webp",
+    "static/media/new-o.webp": "/BookStore-React/static/media/new-o.9099f17801faf0f8a005.webp",
+    "static/media/new-m.webp": "/BookStore-React/static/media/new-m.acf50c5ca613c4261609.webp",
+    "static/media/new-i.webp": "/BookStore-React/static/media/new-i.6d34678e50c92b2c585d.webp",
+    "static/media/new-t.webp": "/BookStore-React/static/media/new-t.c60129a37c2208291571.webp",
+    "static/media/new-k.webp": "/BookStore-React/static/media/new-k.8072008d1631eb95b00d.webp",
+    "static/media/new-h.webp": "/BookStore-React/static/media/new-h.6163e00b784208c7fbfb.webp",
+    "static/media/new-f.webp": "/BookStore-React/static/media/new-f.5cd5d10fdf4e68ffc61b.webp",
+    "static/media/new-d.webp": "/BookStore-React/static/media/new-d.89a35bd138e334b0ea5a.webp",
+    "static/media/new-s.webp": "/BookStore-React/static/media/new-s.1ea6a97498afeb8a8298.webp",
+    "static/media/new-p.webp": "/BookStore-React/static/media/new-p.72c7d286252761a555ee.webp",
+    "static/media/new-r.webp": "/BookStore-React/static/media/new-r.e7c6344e023d4b7ee92b.webp",
+    "static/media/new-b.webp": "/BookStore-React/static/media/new-b.7bd37ef640b55d10a25a.webp",
+    "static/media/new-a.webp": "/BookStore-React/static/media/new-a.8a247bb97c452f17ea2d.webp",
+    "static/media/new-q.webp": "/BookStore-React/static/media/new-q.a566ceb68b7c52e2bff0.webp",
+    "static/media/new-c.webp": "/BookStore-React/static/media/new-c.493ef238b959c27e1b39.webp",
+    "static/media/new-e.webp": "/BookStore-React/static/media/new-e.7e511fcac0291f534ebb.webp",
+    "static/media/new-l.webp": "/BookStore-React/static/media/new-l.36eb6a0c6f3a02340d73.webp",
+    "static/media/new-j.webp": "/BookStore-React/static/media/new-j.3b4bab9a84ae5aa8016d.webp",
+    "static/media/new-n.webp": "/BookStore-React/static/media/new-n.4463d49596fead3d9c9a.webp",
     "index.html": "/BookStore-React/index.html",
-    "main.974da663.css.map": "/BookStore-React/static/css/main.974da663.css.map",
-    "main.b4ad50b7.js.map": "/BookStore-React/static/js/main.b4ad50b7.js.map"
+    "main.c1e29cb3.css.map": "/BookStore-React/static/css/main.c1e29cb3.css.map",
+    "main.c3bde7a2.js.map": "/BookStore-React/static/js/main.c3bde7a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.974da663.css",
-    "static/js/main.b4ad50b7.js"
+    "static/css/main.c1e29cb3.css",
+    "static/js/main.c3bde7a2.js"
   ]
 }
