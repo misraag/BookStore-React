@@ -1,12 +1,12 @@
 .shop {
   margin-top: 6vh; /* Compensate for the height of the navbar */
-  height: calc(94vh - 6vh); /* Calculate the remaining viewport height */
+  height: calc(100vh - 6vh); /* Calculate the remaining viewport height */
   overflow-y: auto; /* Allow content to scroll vertically if needed */
 }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   justify-content: center;
   padding: 20px;
@@ -22,7 +22,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: background-color 0.3s ease-in-out;
 }
+
 
 .product:hover {
   background-color: rgb(239, 239, 239);
@@ -33,11 +35,26 @@
   margin-top: 5px;
   height: 280px; 
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .product .description {
-  
   font-size: 1rem;
+}
+
+.product .description .book-title,
+.product .description .book-price {
+  color: inherit; /* Ensure the text inherits the color of the parent element */
+  text-decoration: none; /* Remove underline */
+  /* margin: 0; */
+  margin: 9px;
+}
+
+.product-link {
+  text-decoration: none; /* Remove underline from the link */
+  color: inherit; /* Inherit color from parent */
+  display: block; /* Ensure the link covers the entire product content */
+  width: 100%;
 }
 
 .product .addToCartBttn {
@@ -57,7 +74,6 @@
   border-color: rgb(33, 16, 86);
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 768px) {
   .product img {
