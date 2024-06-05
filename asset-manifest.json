@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BookStore-React/static/css/main.7ca76623.css",
-    "main.js": "/BookStore-React/static/js/main.39ce43cc.js",
+    "main.css": "/BookStore-React/static/css/main.4b44e832.css",
+    "main.js": "/BookStore-React/static/js/main.8af9f1d9.js",
     "static/media/new-g.webp": "/BookStore-React/static/media/new-g.3bd92cab15a76bd0a28e.webp",
     "static/media/new-o.webp": "/BookStore-React/static/media/new-o.9099f17801faf0f8a005.webp",
     "static/media/new-m.webp": "/BookStore-React/static/media/new-m.acf50c5ca613c4261609.webp",
@@ -23,11 +23,11 @@
     "static/media/new-j.webp": "/BookStore-React/static/media/new-j.3b4bab9a84ae5aa8016d.webp",
     "static/media/new-n.webp": "/BookStore-React/static/media/new-n.4463d49596fead3d9c9a.webp",
     "index.html": "/BookStore-React/index.html",
-    "main.7ca76623.css.map": "/BookStore-React/static/css/main.7ca76623.css.map",
-    "main.39ce43cc.js.map": "/BookStore-React/static/js/main.39ce43cc.js.map"
+    "main.4b44e832.css.map": "/BookStore-React/static/css/main.4b44e832.css.map",
+    "main.8af9f1d9.js.map": "/BookStore-React/static/js/main.8af9f1d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ca76623.css",
-    "static/js/main.39ce43cc.js"
+    "static/css/main.4b44e832.css",
+    "static/js/main.8af9f1d9.js"
   ]
 }
