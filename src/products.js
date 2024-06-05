@@ -25,30 +25,36 @@ export const PRODUCTS = [
     productName: "React 16 Essentials",
     price: 599.0,
     productImage: product1,
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip Fsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
     id: 2,
     productName: "Modern CSS with Tailwind",
     price: 349.0,
     productImage: product2,
+    description: "Description for Product 1",
   },
   {
     id: 15,
     productName: "Flutter CookBook",
     price: 399.0,
     productImage: product15,
+    description: "Description for Product 1",
   },
   {
     id: 9,
     productName: "The Quick Python Guide",
     price: 399.0,
     productImage: product9,
+    description: "Description for Product 1",
   },
   {
     id: 5,
     productName: "Bootstrap Quickstart",
     price: 499.0,
     productImage: product5,
+    description: "Description for Product 1",
   },
   {
     id: 12,

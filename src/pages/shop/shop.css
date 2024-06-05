@@ -1,3 +1,9 @@
+.shop {
+  margin-top: 6vh; /* Compensate for the height of the navbar */
+  height: calc(94vh - 6vh); /* Calculate the remaining viewport height */
+  overflow-y: auto; /* Allow content to scroll vertically if needed */
+}
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
@@ -23,13 +29,14 @@
 }
 
 .product img {
-  width: 90%;
+  width: 95%;
   margin-top: 5px;
   height: 280px; 
   border-radius: 5px;
 }
 
 .product .description {
+  
   font-size: 1rem;
 }
 

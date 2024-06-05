@@ -1,0 +1,74 @@
+/* ProductDescription.css */
+.product-description {
+    display: flex;
+    height: calc(100vh - 6vh); /* Remaining viewport height after the navbar */
+    padding-top: 6vh; /* To ensure content starts below the navbar */
+    align-items: center;
+  }
+  
+  .product-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Optional: Background color for the image section */
+    height: 94vh;
+  }
+  
+  .product-image img {
+    max-width: 400px;
+    max-height: 500px;
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+  }
+  
+  .product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 20px;
+    overflow-y: auto; /* Scrollable content if it exceeds the height */
+    /* align-items: center; */
+    text-align: left;
+    /* align-items: center; */
+    /* background-color: green; */
+    height: 55%;
+  }
+  
+  .product-details h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .product-description h3 {
+    margin-left: 5px;
+  }
+  
+  .product-details .description {
+    flex-grow: 1; /* Allow this section to grow and take up available space */
+    max-height: 300px; /* Set a max height for the description */
+    overflow-y: auto; /* Make the description scrollable */
+    margin-bottom: 20px; /* Space between description and button */
+    /* background-color: green; */
+    padding: 5px;
+  }
+  
+  .product-details button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    width: 200px;
+  }
+  
+  .product-details button:hover {
+    background-color: rgb(33, 16, 86);
+    border-color: rgb(33, 16, 86);
+    cursor: pointer;
+  }
+  
