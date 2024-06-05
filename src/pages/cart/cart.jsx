@@ -13,38 +13,38 @@ export const Cart = () => {
 
   return (
     <div className="shopping-cart">
-    <div className="cart">
-      {/* <div> */}
-        <h1>Your Cart Items</h1>
-      {/* </div> */}
-      <div className="carts no-scrollbars">
-        {PRODUCTS.map((product) => {
-          if (cartItems[product.id] !== 0) {
-            return <CartItem data={product} />;
-          }
-        })}
-      </div>
+      {totalAmount > 0 && (
+        <div className="cart">
+              
+              <div className="carts no-scrollbars">
+                <h1>Your Cart Items</h1>
+                  {PRODUCTS.map((product) => {
+                    if (cartItems[product.id] !== 0) {
+                      return <CartItem data={product} />;
+                    }
+                  })}
+              </div>
 
-      
-    </div>
-    <div>
-      {totalAmount > 0 ? (
-        <div className="checkout">
-          <p> Subtotal: Rs.{totalAmount} </p>
-          <button onClick={() => navigate("/")}> Continue Shopping </button>
-          <button
-            onClick={() => {
-              checkout();
-              navigate("/checkout");
-            }}
-          >
-            {" "}
-            Checkout{" "}
-          </button>
+              <div className="checkout">
+                <div>
+                <p className="cart-total"> Subtotal: Rs.  {totalAmount} </p>
+                </div>
+                <div>
+                <button onClick={() => navigate("/")}> Continue Shopping </button>
+                <button
+                  onClick={() => {
+                    checkout();
+                    navigate("/checkout");
+                  }}
+                >
+                  {" "}
+                  Checkout{" "}
+                </button>
+                </div>
+              </div>
         </div>
-      ) : (
-        <h1> Your Shopping Cart is Empty</h1>
-      )}</div>
+      )}
+      {totalAmount <= 0 && <h1> Your Shopping Cart is Empty</h1>}
     </div>
   );
 };
