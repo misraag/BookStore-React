@@ -41,7 +41,8 @@ export const PRODUCTS = [
     #1,433 in Introductory & Beginning Programming
     #3,006 in Programming Languages (Books)
     #3,419 in Internet & Social Media (Books)
-    Customer Reviews: 3.4 3.4 out of 5 stars `
+    Customer Reviews: 3.4 3.4 out of 5 stars `,
+    author:'Artemij Fedosejev'
   },
   {
     id: 2,
@@ -60,7 +61,8 @@ export const PRODUCTS = [
     #196 in CSS Programming
     #365 in Interface Design Programming
     #4,133 in Programming Languages (Books)
-    Customer Reviews: 3.5 3.5 out of 5 stars`
+    Customer Reviews: 3.5 3.5 out of 5 stars`,
+    author:'Noel Rappin'
   },
   {
     id: 15,
@@ -82,7 +84,8 @@ export const PRODUCTS = [
     #83 in Mobile Phone Programming
     #232 in Java Programming
     #800 in Computer Programming eBooks
-    Customer Reviews: 4.4 4.4 out of 5 stars `
+    Customer Reviews: 4.4 4.4 out of 5 stars `,
+    author:'Simone Alessandria'
   },
   {
     id: 9,
@@ -103,7 +106,8 @@ export const PRODUCTS = [
     Generic Name ‏ : ‎ Study Book
     Best Sellers Rank: #2,725 in Books (See Top 100 in Books)
     #5 in Programming Languages (Books)
-    Customer Reviews: 4.4 4.4 out of 5 stars `
+    Customer Reviews: 4.4 4.4 out of 5 stars `,
+    author:'Dr. R. Nageswara Rao'
   },
   {
     id: 5,
@@ -125,7 +129,8 @@ export const PRODUCTS = [
     #286 in Mobile Phone Programming
     #1,142 in C & C++ Programming
     #3,572 in Programming Languages (Books)
-    Customer Reviews: 3.8 3.8 out of 5 stars `
+    Customer Reviews: 3.8 3.8 out of 5 stars `,
+    author:'Dr. R. Nageswara Rao'
   },
   {
     id: 12,
@@ -151,7 +156,8 @@ export const PRODUCTS = [
     #494 in Introductory & Beginning Programming
     #704 in Computer Programming eBooks
     #1,351 in Computer Programming Language & Tool
-    Customer Reviews: 3.0 3.0 out of 5 stars `
+    Customer Reviews: 3.0 3.0 out of 5 stars `,
+    author:'Bjarne Stroustrup'
   },
   {
     id: 7,
@@ -170,7 +176,8 @@ export const PRODUCTS = [
     Generic Name ‏ : ‎ Textbook
     Best Sellers Rank: #16,717 in Books (See Top 100 in Books)
     #33 in Programming Languages (Books)
-    Customer Reviews: 4.3 4.3 out of 5 stars `
+    Customer Reviews: 4.3 4.3 out of 5 stars `,
+    author:'Bjarne Stroustrup'
   },
   {
     id: 8,
@@ -190,7 +197,8 @@ export const PRODUCTS = [
     #92 in API & Operating Environments
     #116 in Java Programming
     #578 in Programming Languages (Books)
-    Customer Reviews: 3.8 3.8 out of 5 stars `
+    Customer Reviews: 3.8 3.8 out of 5 stars `,
+    author:'Greg L. Turnquist'
   },
   {
     id: 4,
@@ -212,7 +220,8 @@ export const PRODUCTS = [
     #3 in Web Development & Design
     #12 in API & Operating Environments
     #41 in Computer Programming Language & Tool
-    Customer Reviews: 4.6 4.6 out of 5 stars `
+    Customer Reviews: 4.6 4.6 out of 5 stars `,
+    author: 'Marijn Haverbeke'
   },
   {
     id: 10,
@@ -232,7 +241,8 @@ export const PRODUCTS = [
     #96 in C & C++ Programming
     #140 in Python Programming
     #357 in Programming Languages (Books)
-    Customer Reviews: 4.5 4.5 out of 5 stars  `
+    Customer Reviews: 4.5 4.5 out of 5 stars  `,
+    author: 'William S. Vincent'
   },
   {
     id: 11,
@@ -252,7 +262,8 @@ export const PRODUCTS = [
     #2,044 in Hardware & DIY
     #6,057 in Programming Languages (Books)
     #7,302 in Internet & Social Media (Books)
-    Customer Reviews: 4.0 out of 5 stars`
+    Customer Reviews: 4.0 out of 5 stars`,
+    author: 'Soham Kamani'
   },
   {
     id: 6,
@@ -275,7 +286,8 @@ export const PRODUCTS = [
     #34 in Programming Languages eTextbooks
     #55 in Java Programming
     #886 in Computers & Technology eBooks
-    Customer Reviews: 4.7 4.7 out of 5 stars  `
+    Customer Reviews: 4.7 4.7 out of 5 stars  `,
+    author: 'Joshua Bloch'
   },
   {
     id: 13,
@@ -295,7 +307,8 @@ export const PRODUCTS = [
     #1,083 in Software Design & Engineering
     #1,134 in Software Architecture
     #1,515 in Network Administration
-    Customer Reviews: 3.8 3.8 out of 5 stars `
+    Customer Reviews: 3.8 3.8 out of 5 stars `,
+    author: 'Azat Mardan'
   },
   {
     id: 14,
@@ -311,7 +324,8 @@ export const PRODUCTS = [
     Item Weight ‏ : ‎ 240 g
     Dimensions ‏ : ‎ 23.49 x 19.05 x 0.74 cm
     Country of Origin ‏ : ‎ India
-    Customer Reviews: 3.7 3.7 out of 5 stars   `
+    Customer Reviews: 3.7 3.7 out of 5 stars   `,
+    author: 'Olayinka Omole'
   },
   {
     id: 3,
@@ -333,7 +347,8 @@ export const PRODUCTS = [
     Best Sellers Rank: #45,567 in Books (See Top 100 in Books)
     #124 in Programming Languages (Books)
     #751 in Computers & Internet
-    Customer Reviews: 5.0 5.0 out of 5 stars `
+    Customer Reviews: 5.0 5.0 out of 5 stars `,
+    author: 'Nabendu Biswas'
   },
   {
     id: 16,
@@ -362,7 +377,8 @@ export const PRODUCTS = [
     Best Sellers Rank: #1,424,077 in Books (See Top 100 in Books)
     #80,304 in Education (Books)
     #106,056 in Analysis & Strategy
-    Customer Reviews: 4.6 4.6 out of 5 stars `
+    Customer Reviews: 4.6 4.6 out of 5 stars `,
+    author:'Ann Williams'
   },
   {
     id: 17,
@@ -376,7 +392,8 @@ export const PRODUCTS = [
     Item Weight ‏ : ‎ 1 kg 70 g
     Country of Origin ‏ : ‎ India
     Best Sellers Rank: #7,803 in Books (See Top 100 in Books)
-    Customer Reviews: 4.5 4.5 out of 5 stars `
+    Customer Reviews: 4.5 4.5 out of 5 stars `,
+    author:'Avi Silberschatz'
   },
   {
     id: 18,
@@ -396,7 +413,8 @@ export const PRODUCTS = [
     #63 in Operating Systems Textbooks
     #112 in Operating Systems Books
     #203 in Introductory & Beginning Programming
-    Customer Reviews: 4.6 4.6 out of 5 stars `
+    Customer Reviews: 4.6 4.6 out of 5 stars `,
+    author:'Prem Kumar Ponuthorai'
   },
   {
     id: 19,
@@ -417,7 +435,8 @@ export const PRODUCTS = [
     #53 in C# Programming
     #135 in Software Testing
     #320 in C & C++ Programming
-    Customer Reviews: 4.7 4.7 out of 5 stars `
+    Customer Reviews: 4.7 4.7 out of 5 stars `,
+    author:'Vladimir Khorikov'
   },
   {
     id: 20,
@@ -437,6 +456,7 @@ export const PRODUCTS = [
     #15 in C# Programming
     #42 in Microsoft Programming
     #63 in API & Operating Environments
-    Customer Reviews: 5.0 5.0 out of 5 stars `
+    Customer Reviews: 5.0 5.0 out of 5 stars `,
+    author:'Xiaodi Yan'
   },
 ];

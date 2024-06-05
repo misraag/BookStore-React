@@ -24,11 +24,11 @@
   display: flex;
 }
 
-.shopButton {
+.homeButton {
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 1.20rem;
+  font-size: 1.10rem;
   font-weight: 600;
   /* font-family: "Alice", serif; */
 }

@@ -12,11 +12,12 @@ export const Cart = () => {
   const navigate = useNavigate();
 
   return (
+    <div className="shopping-cart">
     <div className="cart">
-      <div>
+      {/* <div> */}
         <h1>Your Cart Items</h1>
-      </div>
-      <div className="cart">
+      {/* </div> */}
+      <div className="carts no-scrollbars">
         {PRODUCTS.map((product) => {
           if (cartItems[product.id] !== 0) {
             return <CartItem data={product} />;
@@ -24,6 +25,9 @@ export const Cart = () => {
         })}
       </div>
 
+      
+    </div>
+    <div>
       {totalAmount > 0 ? (
         <div className="checkout">
           <p> Subtotal: Rs.{totalAmount} </p>
@@ -40,7 +44,7 @@ export const Cart = () => {
         </div>
       ) : (
         <h1> Your Shopping Cart is Empty</h1>
-      )}
+      )}</div>
     </div>
   );
 };
