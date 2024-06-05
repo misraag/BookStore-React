@@ -1,24 +1,4 @@
-.shopTitle {
-  display: flex;
-  /* margin-top: 0; */
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  font-size: 30px;
-  background-color: rgb(237, 237, 237);
-  /* background-color: green; */
-  height: 150px;
-  color: rgb(38, 14, 60);
-  color: rgb(1, 0, 2);
-  /* background-color: green; */
-  font-family: 'Acme', sans-serif;
-font-family: 'Alice', serif;
-/* font-family: 'Marcellus', serif; */
-/* font-family: 'Philosopher', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-color: darkcyan;
 
-}
 .products {
   width: 100%;
   height: auto;

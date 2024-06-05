@@ -6,9 +6,9 @@ import "./shop.css";
 export const Shop = () => {
   return (
     <div className="shop">
-      <div className="shopTitle">
+      {/* <div className="shopTitle">
         <h1>Book Store</h1>
-      </div>
+      </div> */}
 
       <div className="products">
         {PRODUCTS.map((product) => (
