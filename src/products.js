@@ -118,7 +118,7 @@ export const PRODUCTS = [
   },
   {
     id: 17,
-    productName: "Understanding Operating Systems",
+    productName: "Operating Systems",
     price: 400.0,
     productImage: product17,
   },

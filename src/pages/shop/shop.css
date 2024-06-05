@@ -1,99 +1,62 @@
-
 .products {
-  width: 100%;
-  height: auto;
   display: grid;
-  /* grid-template-columns: 25vw 25vw 25vw 25vw; */
-  grid-template-columns: repeat(4, 24vw);
-  /* grid-gap: -3px 0px; */
-  /* grid-column-end: 4; */
-  place-items: center;
-  background-color: rgb(229, 230, 232);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  gap: 18px;
   justify-content: center;
-  /* background-color: rgb(213, 201, 224); */
-  
+  padding: 20px;
 }
 
 .product {
-  /* width: 300px; */
-  /* height: 35px; */
-  /* background-color: green; */
-  margin: 100px;
-  margin-bottom: 25px;
-  margin-top: 50px;
+  background-color: rgb(208, 219, 223);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: rgb(208, 219, 223);
-  /* background-color: black; */
-  /* padding: 12px; */
-  border-radius: 5px;
-}
-
-.product:hover {
-  background: rgb(0, 0, 0, 0.225);
 }
 
 .product img {
-  /* width: 400px; */
-  width: 260px;
-  height: 300px;
-  /* border: 1px solid black; */
-  border-radius: 0.5rem;
-  padding: 20px 25px;
-  padding-bottom: 5px;
+  width: 95%;
+  margin-top: 5px;
+  height: auto;
+  height: 300px; 
+  border-radius: 5px;
 }
 
 .product .description {
-  text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
-.product:hover {
-  transition: 0.1s ease-in;
-  cursor: pointer;
-}
-
-.addToCartBttn {
-  background-color: transparent;
-  border: 2px solid rgb(19, 19, 19);
-  min-width: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.product .addToCartBttn {
+  background-color: rgb(102, 102, 195);
+  color: white;
+  border: none;
   border-radius: 5px;
-  width: 100%;
-  display: flex;
+  padding: 10px 20px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: white;
-  height: 50px;
-  font-weight: bold;
-  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;  
 }
 
-.addToCartBttn:hover {
-  background-color: rgb(19, 19, 19);
-  color: white;
+.product .addToCartBttn:hover {
   background-color: rgb(33, 16, 86);
+  border-color: rgb(33, 16, 86);
   cursor: pointer;
-  border-radius: 2px solid rgb(33, 16, 86);
 }
 
-.book-title {
-  margin: 10px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.book-price {
-  margin: 10px;
-  font-size: 1rem;
-  font-weight: bold;
+@media screen and (max-width: 768px) {
+  .product img {
+    max-height: 350px; 
+  }
+
+  .product .description {
+    font-size: 0.9rem;
+  }
+
+  .product .addToCartBttn {
+    padding: 8px 16px;
+  }
 }
