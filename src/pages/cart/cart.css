@@ -1,4 +1,8 @@
 /* Cart.css */
+body, html {
+  overflow-x: hidden;
+}
+
 .shopping-cart {
   display: flex;
   height: calc(100vh - 9vh); /* Remaining viewport height after the navbar */
@@ -28,21 +32,21 @@
 .carts {
   overflow-y: auto; /* Allow content to scroll vertically if needed */
   width: 70%;
-  height: calc(100vh - 15vh); /* Adjust height to leave space for the fixed checkout section */
+  height: calc(100vh - 180px); /* Adjust height to leave space for the fixed checkout section */
   background-color: white;
+  margin-bottom: 20px; /* Ensure there's space between the list and the fixed checkout section */
 }
 
 .checkout {
-  width: 30%;
-  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
   flex-direction: column;
-  padding: 20px;
-  margin-top: 56px;
-  height: 150px;
   background-color: rgb(102, 102, 195);
-  margin-left: 5px;
-  color: white;
-  justify-content: space-between;
+  z-index: 10; /* Ensure the checkout section is above other content */
 }
 
 .no-scrollbars::-webkit-scrollbar {
@@ -196,8 +200,9 @@
   }
 
   .checkout button {
-    width: calc(50% - 10px);
+    width: calc(48% - 10px);
     margin: 5px;
+    
   }
 
   .cart-total {
