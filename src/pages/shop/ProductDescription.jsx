@@ -40,9 +40,9 @@ const ProductDescription = () => {
         {activeTab === "description" ? (
           <div className="description">
             <h3>About the Author</h3>
-            <p>{product.description.split('\n').map((line, index) => (
+            {product.description.split('\n').map((line, index) => (
               <p key={index}>{line}</p>
-            ))}</p>
+            ))}
           </div>
         ) : (
           <div className="details">

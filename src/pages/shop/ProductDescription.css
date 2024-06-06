@@ -1,99 +1,131 @@
 /* ProductDescription.css */
 .product-description {
-    display: flex;
-    height: calc(100vh - 6vh); /* Remaining viewport height after the navbar */
-    padding-top: 6vh; /* To ensure content starts below the navbar */
-    align-items: center;
-  }
-  
-  .product-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: #f0f0f0; /* Optional: Background color for the image section */
-    height: 94vh;
-  }
-  
-  .product-image img {
-    max-width: 400px;
-    max-height: 500px;
-    object-fit: contain; /* Ensure the image maintains its aspect ratio */
-  }
-  
-  .product-details {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    overflow-y: auto; /* Scrollable content if it exceeds the height */
-    text-align: left;
-  }
-  
-  .product-details h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .description-price {
-    margin-left: 5px;
-  }
-  
-  .product-details .tabs {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  height: calc(100vh - 6vh); /* Remaining viewport height after the navbar */
+  padding-top: 6vh; /* To ensure content starts below the navbar */
+  align-items: center;
+  flex-direction: row; /* Default to row layout for full screen */
+}
+
+.product-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f0f0f0; /* Optional: Background color for the image section */
+  height: 94vh;
+}
+
+.product-image img {
+  max-width: 400px;
+  max-height: 500px;
+  object-fit: contain; /* Ensure the image maintains its aspect ratio */
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto; /* Scrollable content if it exceeds the height */
+  text-align: left;
+}
+
+.product-details h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description-price {
+  margin-left: 5px;
+}
+
+.product-details .tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  width: 50%;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+  width: 30px;
+  margin: 5px;
+}
+
+.tab-button.active {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.tab-button:not(.active):hover {
+  background-color: #f0f0f0;
+}
+
+.product-details .description,
+.product-details .details {
+  flex-grow: 1; /* Allow this section to grow and take up available space */
+  height: 300px; /* Set a max height for the content */
+  overflow-y: auto; /* Make the content scrollable */
+  margin-bottom: 20px; /* Space between content and button */
+  padding: 5px;
+}
+
+.cartBtn {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px; /* Ensure spacing between price and button */
+  width: 200px;
+}
+
+.product-details button:hover {
+  background-color: rgb(33, 16, 86);
+  border-color: rgb(33, 16, 86);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .product-description {
+      flex-direction: column; /* Stack content vertically for smaller screens */
+      height: auto; /* Allow the container to grow based on content */
   }
 
-  .tabs {
-    width: 50%;
+  .product-image {
+      height: auto; /* Allow the image container to adjust based on content */
   }
-  
-  .tab-button {
-    flex: 1;
-    padding: 10px;
-    cursor: pointer;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    transition: background-color 0.3s ease-in-out;
-    text-align: center;
-    width: 30px;
-    margin: 5px;
+
+  .product-image img {
+      max-width: 100%; /* Make sure the image is responsive */
+      max-height: none; /* Remove max-height to allow full display */
   }
-  
-  .tab-button.active {
-    background-color: #333;
-    color: #fff;
-    border-color: #333;
+
+  .product-details {
+      width: 100%;
+      height: auto;
   }
-  
-  .tab-button:not(.active):hover {
-    background-color: #f0f0f0;
-  }
-  
-  .product-details .description,
-  .product-details .details {
-    flex-grow: 1; /* Allow this section to grow and take up available space */
-    height: 300px; /* Set a max height for the content */
-    overflow-y: auto; /* Make the content scrollable */
-    margin-bottom: 20px; /* Space between content and button */
-    padding: 5px;
-  }
-  
+
   .cartBtn {
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
-    width: 200px;
+      position: fixed; /* Fix the button at the bottom of the viewport */
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000; /* Ensure button is above other content */
+      margin-top: 0; /* Remove margin top for fixed position */
   }
-  
-  .product-details button:hover {
-    background-color: rgb(33, 16, 86);
-    border-color: rgb(33, 16, 86);
-    cursor: pointer;
-  }
+}
