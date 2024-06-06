@@ -196,7 +196,7 @@
     flex-direction: column;
     background-color: rgb(102, 102, 195);
     z-index: 10; /* Ensure the checkout section is above other content */
-    height: 8vh;
+    height: 90px;
   }
 
   .checkout button {
